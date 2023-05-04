@@ -1,5 +1,11 @@
+import { Board } from "./components/Board";
+
 function App() {
-  return ;
+  return (
+    <div className="flex justify-center w-screen">
+      <Board />
+    </div>
+  );
 }
 
 export default App;
